@@ -11,9 +11,32 @@
 </head>
 <body>
     <div id="container">
-        
-            
+        <p>Benvenuti! Non appena cliccherai sul bottone compariranno 5 numeri, il tuo compito sarà quello di ricordarteli e scriverli subito dopo nello spazio apposito. Riuscirai a ricordarteli tutti?</p>
+        <div id="game">
             <button id="play-btn">Play</button>
+
+            <ul id="random-numbers">
+                <li class="numeri-casuali"></li>
+                <li class="numeri-casuali"></li>
+                <li class="numeri-casuali"></li>
+                <li class="numeri-casuali"></li>
+                <li class="numeri-casuali"></li>
+            </ul>
+        </div>
+        <div id="results">
+            <div id="user-answers">
+                <input type="number" name="answer-1" id="answer-1" class="user-answer" placeholder="N">
+                <input type="number" name="answer-2" id="answer-2" class="user-answer" placeholder="N">
+                <input type="number" name="answer-3" id="answer-3" class="user-answer" placeholder="N">
+                <input type="number" name="answer-4" id="answer-4" class="user-answer" placeholder="N">
+                <input type="number" name="answer-5" id="answer-5" class="user-answer" placeholder="N">
+            </div>
+
+            <button id="answer-btn">Verifica</button>
+
+            <div id="score"></div>
+        </div>
+            
         
     </div>
 
